@@ -1,3 +1,6 @@
+'''
+Final evaluation of the full system (VAE + Encoder).
+'''
 import argparse
 import importlib
 import json

@@ -114,7 +114,8 @@ class EctLayer(nn.Module):
             requires_grad=False,
         )
 
-        self.v = v
+        # self.v = v
+        self.register_buffer("v", v)
 
     def forward(self, batch: EctBatch, index):
         """Forward method"""
